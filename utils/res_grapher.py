@@ -26,6 +26,9 @@ for key in dic:
     plt.plot(x, dic[key])
     names.append(key)
 
+plt.title("Average Absolute Error")
+plt.xlabel("Skewness")
+plt.ylabel("AAE")
 plt.legend(names, loc='upper left')
 
 plt.show()
